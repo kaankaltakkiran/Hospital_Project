@@ -7,3 +7,5 @@ temptle engine html içine js kodu yazmamızı yarıo
 npm 3. part yazılım paketleri indiriyoruz.
 npm de gerekli yazımları indiriyoruz
 partialslar ortak olanları alıp tek bir yerde yaptıüımız değişiklik yer her yerde geçerli olur
+.env önemli bilgileri saklamak için
+mongoose veritabanı modelleri için 
