@@ -1,0 +1,5 @@
+Önce npm init
+sonra npm install express
+packe.json "type": "module", ekle
+Node.js ile web sunucusuna gelen istekleri yönetmek, düzenlemek ve yayınlamak için kullanılan express modülü.
+test yerine  "start": "nodemon app.js"
