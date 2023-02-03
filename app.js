@@ -6,11 +6,23 @@ const app=express();
 const port=3000;
 //Host Adı
 const hostname='127.0.0.1';
+//Ejs Template Engine
+app.set('view engine','ejs');
+
+//Static Dosyalar İçin Middleware
+//Static Dosylarımı Belirliyoruz
+app.use(express.static('public'));
 //Yönlendirme
 //Req İle İstek Yapıp
 //Res İle Cevap Alırız
+//İndex Sayfası
 app.get("/",(req,res)=>{
-res.send("İndex Sayfası");
+res.render("index");
+});
+
+//İndex Sayfası
+app.get("/about",(req,res)=>{
+res.render("about");
 });
 
 //Sunucu Çalıştırma

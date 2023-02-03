@@ -3,3 +3,7 @@ sonra npm install express
 packe.json "type": "module", ekle
 Node.js ile web sunucusuna gelen istekleri yönetmek, düzenlemek ve yayınlamak için kullanılan express modülü.
 test yerine  "start": "nodemon app.js"
+temptle engine html içine js kodu yazmamızı yarıo
+npm 3. part yazılım paketleri indiriyoruz.
+npm de gerekli yazımları indiriyoruz
+partialslar ortak olanları alıp tek bir yerde yaptıüımız değişiklik yer her yerde geçerli olur
